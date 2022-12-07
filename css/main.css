@@ -2,40 +2,62 @@
 
 @font-face {
   font-family: 'Axiforma';
-  src: url("../fonts/Axiforma/Axiforma-Light.eot");
-  src: local("Axiforma Light"), local("Axiforma-Light"), url("../fonts/Axiforma/Axiforma-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Axiforma/Axiforma-Light.woff2") format("woff2"), url("../fonts/Axiforma/Axiforma-Light.woff") format("woff"), url("../fonts/Axiforma/Axiforma-Light.ttf") format("truetype");
+  src: url('../fonts/Axiforma/Axiforma-Light.eot');
+  src: local('Axiforma Light'), local('Axiforma-Light'),
+    url('../fonts/Axiforma/Axiforma-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Axiforma/Axiforma-Light.woff2') format('woff2'),
+    url('../fonts/Axiforma/Axiforma-Light.woff') format('woff'),
+    url('../fonts/Axiforma/Axiforma-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Axiforma';
-  src: url("../fonts/Axiforma/Axiforma-ExtraBold.eot");
-  src: local("Axiforma ExtraBold"), local("Axiforma-ExtraBold"), url("../fonts/Axiforma/Axiforma-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Axiforma/Axiforma-ExtraBold.woff2") format("woff2"), url("../fonts/Axiforma/Axiforma-ExtraBold.woff") format("woff"), url("../fonts/Axiforma/Axiforma-ExtraBold.ttf") format("truetype");
+  src: url('../fonts/Axiforma/Axiforma-ExtraBold.eot');
+  src: local('Axiforma ExtraBold'), local('Axiforma-ExtraBold'),
+    url('../fonts/Axiforma/Axiforma-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Axiforma/Axiforma-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Axiforma/Axiforma-ExtraBold.woff') format('woff'),
+    url('../fonts/Axiforma/Axiforma-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muller';
-  src: url("../fonts/Muller/MullerMedium.eot");
-  src: local("Muller Medium"), local("MullerMedium"), url("../fonts/Muller/MullerMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/Muller/MullerMedium.woff2") format("woff2"), url("../fonts/Muller/MullerMedium.woff") format("woff"), url("../fonts/Muller/MullerMedium.ttf") format("truetype");
+  src: url('../fonts/Muller/MullerMedium.eot');
+  src: local('Muller Medium'), local('MullerMedium'),
+    url('../fonts/Muller/MullerMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Muller/MullerMedium.woff2') format('woff2'),
+    url('../fonts/Muller/MullerMedium.woff') format('woff'),
+    url('../fonts/Muller/MullerMedium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muller';
-  src: url("../fonts/Muller/MullerRegular.eot");
-  src: local("Muller Regular"), local("MullerRegular"), url("../fonts/Muller/MullerRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/Muller/MullerRegular.woff2") format("woff2"), url("../fonts/Muller/MullerRegular.woff") format("woff"), url("../fonts/Muller/MullerRegular.ttf") format("truetype");
+  src: url('../fonts/Muller/MullerRegular.eot');
+  src: local('Muller Regular'), local('MullerRegular'),
+    url('../fonts/Muller/MullerRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Muller/MullerRegular.woff2') format('woff2'),
+    url('../fonts/Muller/MullerRegular.woff') format('woff'),
+    url('../fonts/Muller/MullerRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muller';
-  src: url("../fonts/Muller/MullerBold.eot");
-  src: local("Muller Bold"), local("MullerBold"), url("../fonts/Muller/MullerBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Muller/MullerBold.woff2") format("woff2"), url("../fonts/Muller/MullerBold.woff") format("woff"), url("../fonts/Muller/MullerBold.ttf") format("truetype");
+  src: url('../fonts/Muller/MullerBold.eot');
+  src: local('Muller Bold'), local('MullerBold'),
+    url('../fonts/Muller/MullerBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Muller/MullerBold.woff2') format('woff2'),
+    url('../fonts/Muller/MullerBold.woff') format('woff'),
+    url('../fonts/Muller/MullerBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -61,13 +83,13 @@ html {
 }
 
 a:not([class]) {
-  color: #348BF2;
+  color: #348bf2;
   text-decoration: underline;
   transition: all 0.3s;
 }
 
 a:not([class]):hover {
-  color: #D04D42;
+  color: #d04d42;
   text-decoration: none;
 }
 
@@ -99,7 +121,7 @@ html {
 
 body {
   color: #212121;
-  font-family: "Muller", sans-serif;
+  font-family: 'Muller', sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -120,7 +142,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Axiforma", sans-serif;
+  font-family: 'Axiforma', sans-serif;
   font-weight: 700;
   margin-top: 2.5rem;
   margin-bottom: 2rem;
@@ -185,9 +207,9 @@ ul:not([class]) > li:last-child {
 }
 
 ul:not([class]) > li::before {
-  content: "";
+  content: '';
   position: absolute;
-  background-color: #348BF2;
+  background-color: #348bf2;
   border-radius: 50%;
   width: 8px;
   height: 8px;
@@ -205,8 +227,8 @@ ul:not([class]) > li > ul > li {
 }
 
 ul:not([class]) > li > ul > li::before {
-  content: "";
-  background-color: #348BF2;
+  content: '';
+  background-color: #348bf2;
   border-radius: 50%;
   width: 5px;
   height: 5px;
@@ -215,7 +237,7 @@ ul:not([class]) > li > ul > li::before {
 
 ul:not([class]) > li > ul > li > ul > li::before {
   background-color: #fff;
-  border: 2px solid #348BF2;
+  border: 2px solid #348bf2;
 }
 
 ol:not([class]) {
@@ -240,7 +262,7 @@ ol:not([class]) > li:last-child {
 }
 
 ol:not([class]) > li::before {
-  content: counters(li, ".") ". ";
+  content: counters(li, '.') '. ';
   counter-increment: li;
   position: absolute;
   left: 0;
@@ -260,8 +282,8 @@ ol:not([class]) > li > ul {
 }
 
 ol:not([class]) > li > ul > li::before {
-  content: "";
-  background-color: #348BF2;
+  content: '';
+  background-color: #348bf2;
   border-radius: 50%;
   width: 5px;
   height: 5px;
@@ -356,26 +378,23 @@ table:not([class]) tbody tr:last-child td {
 
 @keyframes onAutoFillStart {
   from {
-
   }
 
   to {
-
   }
 }
 
 @keyframes onAutoFillCancel {
   from {
-
   }
 
   to {
-
   }
 }
 
 @keyframes shake {
-  from, to {
+  from,
+  to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
@@ -385,7 +404,8 @@ table:not([class]) tbody tr:last-child td {
     transform: translate3d(-2px, 0, 0);
   }
 
-  20%, 80% {
+  20%,
+  80% {
     -webkit-transform: translate3d(2px, 0, 0);
     transform: translate3d(2px, 0, 0);
   }
@@ -540,7 +560,7 @@ body {
 .site-header {
   padding: 20px 0 0;
   position: relative;
-  background: url("/img/bg.jpg") no-repeat;
+  background: url('../img/bg.jpg') no-repeat;
   background-position: -950px 0;
 }
 
@@ -548,7 +568,7 @@ body {
   position: absolute;
   width: 361px;
   height: 648px;
-  background: url("../img/flag.png");
+  background: url('../img/flag.png');
   z-index: 1;
   display: none;
   bottom: -260px;
@@ -596,7 +616,7 @@ body {
 
 .burger {
   display: block;
-  background: url("../img/burger.svg");
+  background: url('../img/burger.svg');
   background-size: 100% auto;
   width: 50px;
   height: 50px;
@@ -616,7 +636,7 @@ body {
 }
 
 .hero-title span {
-  color: #348BF2;
+  color: #348bf2;
   font-size: 40px;
   display: block;
 }
@@ -638,7 +658,7 @@ body {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 136.5%;
-  text-shadow: 0  0 20px #fff;
+  text-shadow: 0 0 20px #fff;
 }
 
 .hero-item img {
@@ -664,7 +684,7 @@ body {
 }
 
 .adv {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 32px rgba(25, 25, 28, 0.12);
   border-radius: 20px;
   min-height: 187px;
@@ -683,7 +703,7 @@ body {
   font-weight: 800;
   font-size: 42px;
   line-height: 119.1%;
-  color: #D04D42;
+  color: #d04d42;
 }
 
 .adv__info {
@@ -718,7 +738,7 @@ body {
 
 .f-vk i {
   margin-left: 10px;
-  background-color: #348BF2;
+  background-color: #348bf2;
   width: 29px;
   height: 29px;
   color: #fff;
@@ -759,8 +779,8 @@ body {
   height: 56px;
   padding: 0 49px;
   line-height: 56px;
-  background: linear-gradient(180deg, #F16F64 0%, #C24035 100%);
-  box-shadow: 0px 2px 0px #B32A1E, 0px 8px 32px rgba(25, 25, 28, 0.12);
+  background: linear-gradient(180deg, #f16f64 0%, #c24035 100%);
+  box-shadow: 0px 2px 0px #b32a1e, 0px 8px 32px rgba(25, 25, 28, 0.12);
   border-radius: 90px;
   font-weight: 700;
   transition: all 0.3s ease-out;
@@ -907,7 +927,7 @@ a.scrolltotop-btn {
   bottom: -70px;
   width: 52px;
   height: 52px;
-  background-color: #348BF2;
+  background-color: #348bf2;
   color: #fff;
   cursor: pointer;
   opacity: 0.5;
@@ -916,8 +936,8 @@ a.scrolltotop-btn {
 }
 
 a.scrolltotop-btn:before {
-  content: "f";
-  font-family: "icons";
+  content: 'f';
+  font-family: 'icons';
   font-size: 20px;
   transition: all 0.3s;
 }
@@ -997,21 +1017,21 @@ a.scrolltotop-btn:before {
   top: 0;
   left: 0;
   opacity: 1;
-  background: #7D7D7D;
+  background: #7d7d7d;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #F3F6F9;
-  border: 1px solid #E6ECF1;
+  background: #f3f6f9;
+  border: 1px solid #e6ecf1;
   border-radius: 4px;
 }
 
 .custom-checkbox__input:checked + .custom-checkbox__btn::before {
-  content: "";
+  content: '';
   display: block;
   width: 12px;
   height: 12px;
-  background: url("../img/checked.svg");
+  background: url('../img/checked.svg');
 }
 
 .fluid-img {
@@ -1064,14 +1084,14 @@ a.scrolltotop-btn:before {
   right: -50px;
   width: 335px;
   height: 768px;
-  background: url("../img/phone-budka.png");
+  background: url('../img/phone-budka.png');
   display: none;
 }
 
 .sc-why {
   padding-top: 74px;
   padding-bottom: 54px;
-  background: url("../img/why-bg.jpg") center bottom no-repeat;
+  background: url('../img/why-bg.jpg') center bottom no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1082,7 +1102,7 @@ a.scrolltotop-btn:before {
   left: 0;
   width: 385px;
   height: 806px;
-  background: url("../img/bigben.png");
+  background: url('../img/bigben.png');
   display: none;
 }
 
@@ -1095,7 +1115,7 @@ a.scrolltotop-btn:before {
 .card {
   margin-bottom: 40px;
   filter: drop-shadow(14px 22px 40px rgba(0, 0, 0, 0.4));
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -1123,7 +1143,7 @@ a.scrolltotop-btn:before {
 }
 
 .card__title {
-  color: #348BF2;
+  color: #348bf2;
   margin-bottom: 11px;
   font-family: 'Axiforma';
   font-style: normal;
@@ -1158,11 +1178,11 @@ a.scrolltotop-btn:before {
 }
 
 .rew-wrap--vk {
-  background: #0077FF;
+  background: #0077ff;
 }
 
 .rew-wrap--avito {
-  background: #97CF26;
+  background: #97cf26;
 }
 
 .rew-head {
@@ -1175,7 +1195,7 @@ a.scrolltotop-btn:before {
 }
 
 .rew-head--vk {
-  background-color: #0077FF;
+  background-color: #0077ff;
 }
 
 .rew-head--vk::before {
@@ -1214,7 +1234,7 @@ a.scrolltotop-btn:before {
   font-weight: 800;
   font-size: 17.0569px;
   line-height: 128.1%;
-  color: #348BF2;
+  color: #348bf2;
 }
 
 .rew-item__body {
@@ -1224,7 +1244,7 @@ a.scrolltotop-btn:before {
 }
 
 .rew-item-inner {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 18.9522px;
   padding: 22px;
 }
@@ -1265,7 +1285,7 @@ a.scrolltotop-btn:before {
 }
 
 .sc-price {
-  background: #F8F8F8;
+  background: #f8f8f8;
   padding: 60px 0 53px;
 }
 
@@ -1274,7 +1294,7 @@ a.scrolltotop-btn:before {
 }
 
 .price {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   padding: 38px 20px 34px;
   display: flex;
@@ -1301,7 +1321,7 @@ a.scrolltotop-btn:before {
   font-size: 24px;
   line-height: 128.1%;
   text-align: center;
-  color: #348BF2;
+  color: #348bf2;
   margin-bottom: 4px;
 }
 
@@ -1310,7 +1330,7 @@ a.scrolltotop-btn:before {
   font-size: 14px;
   line-height: 128.1%;
   text-align: center;
-  color: #D04D42;
+  color: #d04d42;
   margin-bottom: 20px;
 }
 
@@ -1320,7 +1340,7 @@ a.scrolltotop-btn:before {
 }
 
 .price--premium {
-  background: #348BF2;
+  background: #348bf2;
   color: #fff;
 }
 
@@ -1329,7 +1349,7 @@ a.scrolltotop-btn:before {
 }
 
 .price--premium .price__discount {
-  color: #FAFF00;
+  color: #faff00;
 }
 
 .sc-tutor {
@@ -1341,14 +1361,14 @@ a.scrolltotop-btn:before {
   margin: 57px 0;
   background: transparent;
   border-top: none;
-  border-color: #D9D9D9;
+  border-color: #d9d9d9;
 }
 
 .bus-img {
   position: absolute;
   width: 502px;
   height: 787px;
-  background: url("../img/bus.png");
+  background: url('../img/bus.png');
   z-index: 1;
   display: none;
   top: -300px;
@@ -1378,7 +1398,7 @@ a.scrolltotop-btn:before {
   font-weight: 800;
   font-size: 32px;
   line-height: 128.1%;
-  color: #348BF2;
+  color: #348bf2;
   margin-bottom: 26px;
   display: flex;
   align-items: center;
@@ -1413,7 +1433,7 @@ a.scrolltotop-btn:before {
 .material {
   margin-top: 68px;
   padding: 40px 32px 40px;
-  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  background: linear-gradient(0deg, #ffffff, #ffffff);
   box-shadow: 0px 8px 32px rgba(25, 25, 28, 0.12);
   border-radius: 20px;
 }
@@ -1460,7 +1480,7 @@ a.scrolltotop-btn:before {
 
 .sc-book {
   padding: 85px 0 109px;
-  background: #348BF2 url("../img/form-bg.jpg") center;
+  background: #348bf2 url('../img/form-bg.jpg') center;
   background-size: cover;
   position: relative;
 }
@@ -1469,7 +1489,7 @@ a.scrolltotop-btn:before {
   position: absolute;
   width: 361px;
   height: 648px;
-  background: url("../img/flag.png");
+  background: url('../img/flag.png');
   z-index: 1;
   display: none;
   top: -260px;
@@ -1477,14 +1497,14 @@ a.scrolltotop-btn:before {
 }
 
 .book-title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .book-text {
   font-weight: 400;
   font-size: 26px;
   line-height: 155.6%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 40px;
 }
 
@@ -1528,7 +1548,7 @@ a.scrolltotop-btn:before {
 
 .form {
   max-width: 435px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 32px rgba(25, 25, 28, 0.12);
   border-radius: 20px;
   padding: 24px;
@@ -1544,13 +1564,13 @@ a.scrolltotop-btn:before {
 .form-control label {
   font-size: 14px;
   line-height: 136.5%;
-  color: #B4BDC5;
+  color: #b4bdc5;
   margin-bottom: 4px;
 }
 
 .form-control input {
-  background: #F3F6F9;
-  border: 1px solid #E6ECF1;
+  background: #f3f6f9;
+  border: 1px solid #e6ecf1;
   border-radius: 90px;
   height: 56px;
   padding: 0 12px;
@@ -1596,9 +1616,9 @@ a.scrolltotop-btn:before {
   color: red;
 }
 
-.btn[disabled="disabled"] {
+.btn[disabled='disabled'] {
   cursor: defaul;
-  background: #B4BDC5 !important;
+  background: #b4bdc5 !important;
   box-shadow: none;
 }
 
@@ -1609,7 +1629,7 @@ a.scrolltotop-btn:before {
 
   .site-header {
     padding: 43px 0 0;
-    background: url("/img/bg.jpg") no-repeat center top;
+    background: url('/img/bg.jpg') no-repeat center top;
   }
 
   .header-inner {
